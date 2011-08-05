@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>unfilteredexample</name>
+  <name>gaeunfilteredscalateexample</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -149,8 +149,17 @@
           <port>${appengine.server.port}</port>
           <monitorPort>${appengine.server.monitorport}</monitorPort>
           <disableUpdateCheck>true</disableUpdateCheck>
+          <splitJars>true</splitJars>
         </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.1</version>
       </plugin>
     </plugins>
   </build>
+
+  <scm>
+    <developerConnection>scm:git:https://github.com/jimmidyson/Open-Source-Play.git</developerConnection>
+  </scm>
 </project>
