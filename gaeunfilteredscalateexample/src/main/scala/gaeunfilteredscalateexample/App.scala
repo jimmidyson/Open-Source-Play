@@ -1,4 +1,4 @@
-package com.example.gaeunfilteredscalateexample
+package gaeunfilteredscalateexample
 
 import unfiltered.request._
 import unfiltered.response._

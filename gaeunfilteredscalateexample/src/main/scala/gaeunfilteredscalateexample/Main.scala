@@ -1,4 +1,4 @@
-package com.example.gaeunfilteredscalateexample
+package gaeunfilteredscalateexample
 
 object Main extends com.weiglewilczek.slf4s.Logging {
   def main(args: Array[String]) {

@@ -5,7 +5,7 @@
   version="2.5">
   <filter>
     <filter-name>App</filter-name>
-    <filter-class>com.example.gaeunfilteredscalateexample.App</filter-class>
+    <filter-class>gaeunfilteredscalateexample.App</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>App</filter-name>
