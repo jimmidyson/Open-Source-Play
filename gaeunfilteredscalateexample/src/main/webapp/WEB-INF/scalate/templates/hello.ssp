@@ -1,0 +1,6 @@
+<% attributes("title") = "This is a new custom title" %>
+
+<%@ val name: String = "Deron Williams" %>
+<%@ val city: String = "Salt Lake City" %>
+
+<h1>Hello, ${name} from ${city}</h1>
