@@ -1,6 +1,22 @@
 <% attributes("title") = "This is a new custom title" %>
 
-<%@ val name: String = "Deron Williams" %>
-<%@ val city: String = "Salt Lake City" %>
+<%@ var name: String = null %>
 
-<h1>Hello, ${name} from ${city}</h1>
+#if (name ne null)
+<h1>Hello, ${name}</h1>
+#end
+
+<form method="post" id="detailsForm">
+  <fieldset>
+    <legend>Your details</legend>
+    <ol>
+      <li>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="What's your name?" required autofocus>
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <button type="submit">Say hello</button>
+  </fieldset>
+</form>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
   <application>${project.name}</application>
-  <version>${project.version}</version>
-  <sessions-enabled>false</sessions-enabled>
+  <version>${project.gae.version}</version>
 </appengine-web-app>
