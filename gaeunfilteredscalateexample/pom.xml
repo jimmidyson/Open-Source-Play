@@ -3,7 +3,7 @@
 
   <groupId>opensourceexamples</groupId>
   <artifactId>gaeunfilteredscalateexample</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.2</version>
   <packaging>war</packaging>
 
   <name>gaeunfilteredscalateexample</name>
