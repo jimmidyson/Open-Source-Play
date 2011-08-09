@@ -8,6 +8,6 @@ These are all fairly simple and in no way are trying to demonstrate best practic
 they are mostly just hacked together. They can be used as a base to further explore
 their capabilities of course :-)
 
-[Unfiltered Scalate Example running on Google App Engine](tree/master/gaeunfilteredscalateexample "Unfiltered Scalate Example running on Google App Engine")
+[Unfiltered Scalate Example running on Google App Engine](https://github.com/jimmidyson/Open-Source-Play/tree/master/gaeunfilteredscalateexample "Unfiltered Scalate Example running on Google App Engine")
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
