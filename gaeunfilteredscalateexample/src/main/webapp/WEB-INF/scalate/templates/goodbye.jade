@@ -1,0 +1,16 @@
+= attributes("title") = "This is a new goodbye page"
+
+-@ val name: String
+
+- if (name != null)
+  h1 Goodbye, #{name}
+
+form(method="post" action="/goodbye" id="detailsForm")
+  fieldset
+    legend Your details
+    ol
+      li
+        label(for="name") Name
+        input(id="name" name="name" type="text" placeholder="What's your name?" required autofocus)
+  fieldset
+    button(type="submit") Say goodbye

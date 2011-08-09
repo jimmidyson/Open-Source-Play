@@ -1,0 +1,14 @@
+-@ val title: String
+-@ val body: String
+
+!!! 5
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title #{title}
+  body
+    p layout header goes here...
+
+    != body
+
+    p layout footer goes here...
