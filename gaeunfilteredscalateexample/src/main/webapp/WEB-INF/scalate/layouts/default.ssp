@@ -1,7 +1,9 @@
 <%@ var body: String %>
 <%@ var title: String = "Some Default Title" %>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
   <title>${title}</title>
 </head>
 <body>

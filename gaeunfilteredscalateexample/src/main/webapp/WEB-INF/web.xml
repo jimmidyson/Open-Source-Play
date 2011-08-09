@@ -4,12 +4,25 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
   version="2.5">
   <filter>
-    <filter-name>App</filter-name>
-    <filter-class>gaeunfilteredscalateexample.App</filter-class>
+    <filter-name>SayHelloPlan</filter-name>
+    <filter-class>gaeunfilteredscalateexample.SayHelloPlan</filter-class>
+  </filter>
+  <filter>
+    <filter-name>SayGoodbyePlan</filter-name>
+    <filter-class>gaeunfilteredscalateexample.SayGoodbyePlan</filter-class>
   </filter>
   <filter-mapping>
-    <filter-name>App</filter-name>
-    <url-pattern>/*</url-pattern>
+    <filter-name>SayHelloPlan</filter-name>
+    <url-pattern>/</url-pattern>
+    <url-pattern>/hello</url-pattern>
+    <url-pattern>/hello/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SayGoodbyePlan</filter-name>
+    <url-pattern>/goodbye</url-pattern>
+    <url-pattern>/goodbye/*</url-pattern>
     <dispatcher>REQUEST</dispatcher>
     <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
